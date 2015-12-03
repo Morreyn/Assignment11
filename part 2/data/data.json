@@ -1,0 +1,123 @@
+
+{"employees":[
+    {
+        "ID":"1",
+        "Name":"Ray Moore",
+        "Title":"CEO",
+        "ImagePath":"directory/images/ray_moore.jpg",
+        "OfficeNumber":"617-000-0001",
+        "CellNumber":"617-514-7789",
+        "Email":"raymoore@company.com",
+        "ReportsTo":""
+    },
+    {
+        "ID":"2",
+        "Name":"John Williams",
+        "Title":"Vice President of IT",
+        "ImagePath":"directory/images/john_williams.jpg",
+        "OfficeNumber":"617-000-0002",
+        "CellNumber":"617-514-9872",
+        "Email":"johnwilliams@company.com",
+        "ReportsTo":"1"
+    },
+    {
+        "ID":"3",
+        "Name":"Julie Taylor",
+        "Title":"Vice President of Sales",
+        "ImagePath":"directory/images/julie_taylor.jpg",
+        "OfficeNumber":"617-000-0003",
+        "CellNumber":"617-526-4835",
+        "Email":"julietaylor@company.com",
+        "ReportsTo":"1"
+    },
+        {
+        "ID":"4",
+        "Name":"Lisa Wong",
+        "Title":"Vice President of Production",
+        "ImagePath":"directory/images/lisa_wong.jpg",
+        "OfficeNumber":"617-000-0004",
+        "CellNumber":"617-514-8891",
+        "Email":"lisawong@company.com",
+        "ReportsTo":"1"
+    },
+        {
+        "ID":"5",
+        "Name":"Eugene Lee",
+        "Title":"Tech Support",
+        "ImagePath":"directory/images/eugene_lee.jpg",
+        "OfficeNumber":"617-000-0005",
+        "CellNumber":"617-584-6694",
+        "Email":"eugenelee@company.com",
+        "ReportsTo":"2"
+    },
+        {
+        "ID":"6",
+        "Name":"Steven Wells",
+        "Title":"Tech Support",
+        "ImagePath":"directory/images/steven_wells.jpg",
+        "OfficeNumber":"617-000-0006",
+        "CellNumber":"617-514-8722",
+        "Email":"stevenwells@company.com",
+        "ReportsTo":"2"
+    },
+        {
+        "ID":"7",
+        "Name":"Gary Donovan",
+        "Title":"Sales Associate",
+        "ImagePath":"directory/images/gary_donovan.jpg",
+        "OfficeNumber":"617-000-0007",
+        "CellNumber":"617-777-7286",
+        "Email":"garydonovan@company.com",
+        "ReportsTo":"3"
+    },
+        {
+        "ID":"8",
+        "Name":"Kathleen Byrne",
+        "Title":"Sales Associate",
+        "ImagePath":"directory/images/kathleen_byrne.jpg",
+        "OfficeNumber":"617-000-0008",
+        "CellNumber":"617-514-1116",
+        "Email":"kathleenbyrne@company.com",
+        "ReportsTo":"3"
+    },
+        {
+        "ID":"9",
+        "Name":"James King",
+        "Title":"Sales Associate",
+        "ImagePath":"directory/images/james_king.jpg",
+        "OfficeNumber":"617-000-0009",
+        "CellNumber":"617-526-1358",
+        "Email":"jamesking@company.com",
+        "ReportsTo":"3"
+    },
+        {
+        "ID":"10",
+        "Name":"Amy Jones",
+        "Title":"Database Manager",
+        "ImagePath":"directory/images/amy_jones.jpg",
+        "OfficeNumber":"617-000-0010",
+        "CellNumber":"617-514-3349",
+        "Email":"amyjones@company.com",
+        "ReportsTo":"4"
+    },
+        {
+        "ID":"11",
+        "Name":"Paul Jones",
+        "Title":"Software Engineer",
+        "ImagePath":"directory/images/paul_jones.jpg",
+        "OfficeNumber":"617-000-0011",
+        "CellNumber":"617-777-5677",
+        "Email":"pauljones@company.com",
+        "ReportsTo":"4"
+    },
+        {
+        "ID":"12",
+        "Name":"Paula Gates",
+        "Title":"Backend Developer",
+        "ImagePath":"directory/images/paula_gates.jpg",
+        "OfficeNumber":"617-000-0012",
+        "CellNumber":"617-514-4483",
+        "Email":"paulajones@company.com",
+        "ReportsTo":"4"
+    }
+]}

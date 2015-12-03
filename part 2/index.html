@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Vectacorp.</title>
+        <link href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" rel="stylesheet">
+        <link href="css/jquery.mobile.structure-1.4.5.min.css" rel="stylesheet">
+        <link href="css/themes/jquery.mobile.icons.min.css" rel="stylesheet">
+        <!--<link href="css/themes/vectacorptheme.min.css" rel="stylesheet">-->
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/indexpage.js"></script>
+        <script src="js/employeedetails.js"></script>
+        <script src="js/directreports.js"></script>
+    </head>
+    <body>
+       <!--HOME-->
+        <div data-role="page" id="home">
+            <header data-role="header">
+                <h1>Directory</h1>
+                
+            </header>
+            <section data-role="content" id="container">
+               <input type="search" name="search" id="search" placeholder="Search">
+                <h2>Welcome to Directory!</h2>
+                <p id="welcomeMessage">This is a sample app that demonstrates how to build applications with jQuery Mobile.</p>
+            </section>
+        </div>
+        
+        
+        <!--EMPLOYEE DETAILS-->
+        <div data-role="page" id="employeedetails">
+            <header data-role="header">
+               <a href="#" id="backbutton" class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-back">Back</a>
+                <h1>Employee Details</h1>
+                <a href="#home" id="searchbutton" class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-right ui-btn-icon-right ui-icon-search">Search</a>
+            </header>
+            <section data-role="content">
+                <!--AJAX Fill Information?-->
+            </section>
+        </div>
+        
+        
+        <!--DIRECT REPORTS-->
+        <div data-role="page" id="directreports">
+            <header data-role="header">
+               <a href="#" id="backbutton" class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-back">Back</a>
+                <h1>Direct Reports</h1>
+                <a href="#home" id="searchbutton" class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-right ui-btn-icon-right ui-icon-search">Search</a>
+            </header>
+            <section data-role="content">
+                <!--AJAX Fill Information?-->
+            </section>
+        </div>
+        
+    </body>
+</html>

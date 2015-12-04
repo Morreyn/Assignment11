@@ -1,0 +1,13 @@
+#employeedetails section img {
+    float: left;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+
+#employeedetails section div {
+    float: left;
+}
+
+#eDetails {
+    clear: both;
+}

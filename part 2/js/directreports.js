@@ -13,7 +13,7 @@ $(document).ready(function () {
         
         $("#reportscontent").empty();
         
-        $.getJSON("../data/data.json", function (data) {
+        $.getJSON("data/data.json", function (data) {
             $.each(data, function () {
                 $.each(this, function (key, value) {
                     if (value.Name === name) {
@@ -58,7 +58,7 @@ $(document).ready(function () {
         
         $("#employeecontent").empty();
         
-        $.getJSON("../data/data.json", function (data) {
+        $.getJSON("data/data.json", function (data) {
             $.each(data, function () {
                 
                 for (var i=0; i<data.employees.length; i++) {

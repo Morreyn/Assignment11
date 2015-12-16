@@ -9,7 +9,7 @@ $(document).ready(function () {
         $("#welcomeMessage").hide();
         $("#container div").hide();
         
-        $.getJSON("../data/data.json", function (data) {
+        $.getJSON("data/data.json", function (data) {
             $.each(data, function () { 
                 var arrayIDs = [];
                 var arrayReports = [];

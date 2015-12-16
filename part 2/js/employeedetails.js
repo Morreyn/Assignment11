@@ -10,7 +10,7 @@ $(document).ready(function () {
 
         $("#employeecontent").empty();
         
-        $.getJSON("../data/data.json", function (data) {
+        $.getJSON("data/data.json", function (data) {
             $.each(data, function () {
                 
                 var managerNum = data.employees[idOfEmployee - 1].ReportsTo - 1;
@@ -65,7 +65,7 @@ $(document).ready(function () {
         
         $("#employeecontent").empty();
         
-        $.getJSON("../data/data.json", function (data) {
+        $.getJSON("data/data.json", function (data) {
             $.each(data, function () {
                 
                 for (var i=0; i<data.employees.length; i++) {
